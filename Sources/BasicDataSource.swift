@@ -56,8 +56,8 @@ open class BasicDataSource<ItemType, CellType: ReusableCell>: AbstractDataSource
      `ds_collectionView(_:sizeForItemAt:)`. If you will use `itemSize` or `itemHeight`,
      then those properties sets this property to `true`.
      */
-    @available(*, unavailable, message: "Now, we can detect if you implemented sizeForItemAt or not")
-    open var useDelegateForItemSize: Bool = false
+    // @available(*, unavailable, message: "Now, we can detect if you implemented sizeForItemAt or not")
+    // open var useDelegateForItemSize: Bool = false
 
     /// Represents the underlying data source which is `self`.
     open var dataSource: AbstractDataSource { return self }
